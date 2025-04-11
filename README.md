@@ -1,2 +1,2 @@
-# llm-scrapers
-a few useful scrapers using LLMs on the back for guidance. 
+# llm-agents
+Public repository showcasing a few agents I'm happy to share at the moment. More info to come. 
