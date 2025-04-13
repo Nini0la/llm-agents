@@ -48,9 +48,12 @@ def chunk_transcript(text, max_tokens=1500):
 
 # === 4. Call LLM ===
 
-def call_llm(chunk):
+def call_llm(chunk, profiler_prompt=""):
     prompt = f"""
-You are an Insight Extractor. Summarize the following YouTube transcript chunk into 3–5 key insights that would be valuable for solopreneurs or AI system designers.
+You are an Insight Extractor. Summarize the following YouTube transcript chunk into 3–5 key insights that would be valuable for this user context:
+
+User Context:
+\"\"\"{profiler_prompt}\"\"\"
 
 Transcript chunk:
 \"\"\"{chunk}\"\"\"
@@ -84,7 +87,7 @@ def save_to_json(insights, filename="insights.json"):
         json.dump(existing + insights, f, indent=2)
 
 # === 7. Orchestrator ===
-def extract_insights_from_youtube(video_url):
+def extract_insights_from_youtube(video_url, profiler_prompt=""):
     video_id = extract_video_id(video_url)
     if not video_id:
         print("Invalid YouTube URL")
@@ -98,7 +101,7 @@ def extract_insights_from_youtube(video_url):
     chunks = chunk_transcript(transcript)
     all_insights = []
     for chunk in chunks:
-        raw_output = call_llm(chunk)
+        raw_output = call_llm(chunk, profiler_prompt)
         insights = parse_insight_output(raw_output)
         all_insights.extend(insights)
 
@@ -107,4 +110,4 @@ def extract_insights_from_youtube(video_url):
 
 # === Usage Example ===
 #import pdb; pdb.set_trace()
-extract_insights_from_youtube("https://www.youtube.com/watch?v=TiNedLS_txU")
+#extract_insights_from_youtube("https://www.youtube.com/watch?v=TiNedLS_txU")
