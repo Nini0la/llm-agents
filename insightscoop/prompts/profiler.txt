@@ -1,0 +1,28 @@
+Hi, I’m preparing to use an AI agent that aligns insights with my personal goals, projects, and interests.
+
+To help it understand me better, I need your help extracting a high-level summary of my mind, projects, and ambitions based on our past chats.
+
+From our conversation history, please create a clear, structured summary with the following sections:
+
+---
+
+## 1. Long-Term Goals  
+What are my recurring ambitions? These could be career goals, learning targets, creative pursuits, or lifestyle systems I care about.
+
+## 2. Key Interests or Domains  
+What topics do I frequently explore? Think in terms of themes like AI, education, creative systems, productivity, etc.
+
+## 3. Current or Dormant Projects  
+List specific projects I've worked on, mentioned, or planned. Group similar ones if possible.
+
+## 4. Knowledge or Skill Anchors  
+What technical or creative areas am I skilled in or learning deeply? E.g., deep learning, storytelling, product design, etc.
+
+## 5. Strategic Summary  
+Finally, write a short paragraph that captures how I think, what I care about, and what kinds of ideas are most aligned with my goals. Write this so another AI agent can use it to understand me better.
+
+---
+
+Please format everything in **markdown**, and be as accurate and specific as possible.
+
+Let me know if you need anything else from me before starting.
