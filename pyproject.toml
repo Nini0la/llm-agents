@@ -1,0 +1,7 @@
+[project]
+name = "llm-agents"
+version = "0.1.0"
+description = "a few publicly available LLM agents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
