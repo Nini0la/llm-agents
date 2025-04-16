@@ -38,5 +38,85 @@
   {
     "insight": "5. The primary aim of agentic research is to augment rather than replace human capabilities. It works by taking over tedious research work, which allows researchers to focus more on high-value tasks such as innovation, experimentation, and complex decision-making. AI can thus not only accelerate the research process, but also enhance the overall quality and depth of inquiry.",
     "timestamp": "2025-04-13T22:31:17.310708"
+  },
+  {
+    "insight": "1. Agentic systems can significantly speed up the research process, as exemplified by Stanford University's STORM system that conducts research and writes a comprehensive Wikipedia page in just minutes.",
+    "timestamp": "2025-04-14T00:33:35.763973"
+  },
+  {
+    "insight": "2. Efficient agentic research replicates the human research process, which begins with defining research objectives, devising a research plan, collecting data, refining insights and finally, generating an answer. Each stage can be assigned to different agents in a multi-agentic system.",
+    "timestamp": "2025-04-14T00:33:35.763973"
+  },
+  {
+    "insight": "3. Multi-agent systems in research mimic human investigative, synthesizing, and iterative knowledge-building capacities, thus enhancing the effectiveness of complex research tasks.",
+    "timestamp": "2025-04-14T00:33:35.763973"
+  },
+  {
+    "insight": "4. The future of research is not simply humans or AI, but a collaboration between both. Agentic research augments human capabilities, offloading tedious tasks and allowing humans to focus on higher-value activities such as innovation and decision-making.",
+    "timestamp": "2025-04-14T00:33:35.763973"
+  },
+  {
+    "insight": "5. Multiple examples and open-source frameworks for implementing multi-agentic systems exist for those interested in harnessing the power of agentic research in their own domains.",
+    "timestamp": "2025-04-14T00:33:35.763973"
+  },
+  {
+    "insight": "1. Agentic systems are gaining prominence across industries, notably in research, where AI agents can perform tasks in a fraction of the time it would take a human, aiding heavily in data-heavy fields such as medicine, finance, and academia.",
+    "timestamp": "2025-04-14T02:43:31.893870"
+  },
+  {
+    "insight": "2. AI agents mimic human research methodology, from defining objectives and making a plan to gathering, refining, and generating data, which ultimately leads to more effective and efficient outcomes.",
+    "timestamp": "2025-04-14T02:43:31.893870"
+  },
+  {
+    "insight": "3. A multi-agentic system divides the research process, assigning different steps to different agents within the system, mirroring how a human would strategize and carry out a research plan.",
+    "timestamp": "2025-04-14T02:43:31.893870"
+  },
+  {
+    "insight": "4. Various public multi-agentic frameworks exist for data scientists, developers, or researchers interested in examining their own applications in agentic research.",
+    "timestamp": "2025-04-14T02:43:31.893870"
+  },
+  {
+    "insight": "5. The primary goal of agentic research is to augment human capability, not replace it; by delegating mundane tasks to artificial intelligence, people can focus on more valuable activities such as innovation, experimentation, and decision-making.",
+    "timestamp": "2025-04-14T02:43:31.893870"
+  },
+  {
+    "insight": "1. Agentic systems, especially multi-agent systems, have transformative potential in research by expediting the process, mainly due to their ability to sift through vast data in relatively less time.",
+    "timestamp": "2025-04-14T02:44:33.027298"
+  },
+  {
+    "insight": "2. Multi-agent systems utilize a step-by-step research process similar to the human approach, starting from defining objectives, developing a plan, data gathering, refining insights, and finally generating answers.",
+    "timestamp": "2025-04-14T02:44:33.027298"
+  },
+  {
+    "insight": "3. Stanford's team introduced an intelligent system, STORM, that conducts research and writes annotated Wikipedia articles within minutes.",
+    "timestamp": "2025-04-14T02:44:33.027298"
+  },
+  {
+    "insight": "4. Agentic research, rather than replacing humans, serves as an augmentation tool by transferring laborious tasks to intelligent systems, leaving humans to focus on higher-value tasks like innovation and decision making.",
+    "timestamp": "2025-04-14T02:44:33.027298"
+  },
+  {
+    "insight": "5. For data scientists interested in multi-agent research systems, there are many open-source multi-agent frameworks available for exploration.",
+    "timestamp": "2025-04-14T02:44:33.027298"
+  },
+  {
+    "insight": "1. Agentic systems, such as the STORM system developed by Stanford University, can automate research tasks and even write and annotate Wikipedia pages based on a simple software prompt. This can reduce the time spent on various repetitive and time-consuming tasks, including data collection and analysis.",
+    "timestamp": "2025-04-14T02:46:57.230224"
+  },
+  {
+    "insight": "2. The multi-agent approach to Agentic research means breaking down the process into several aspects handled by distinct AI agents. This process mirrors human methodology and includes defining the research objective, creating a research plan, gathering data, refining insights, and producing an answer.",
+    "timestamp": "2025-04-14T02:46:57.230224"
+  },
+  {
+    "insight": "3. Open-source multi-agent architectures and frameworks are available for developers, data scientists, and researchers interested in exploring agentic research for their own use cases.",
+    "timestamp": "2025-04-14T02:46:57.230224"
+  },
+  {
+    "insight": "4. AI doesn't aim at replacing human roles in research, but rather augmenting them. The majority of tedious research work, like data collection and sifting, can be offloaded to intelligent systems, while humans focus on high-value tasks such as innovation, decision making, and experimentation.",
+    "timestamp": "2025-04-14T02:46:57.230224"
+  },
+  {
+    "insight": "5. Whether simple or complex, all research starts with a question. AI agents can find factual information quickly, but complex questions require reasoning and understanding, which is where the multi-agent system comes in, bringing different tools and skills together.",
+    "timestamp": "2025-04-14T02:46:57.230224"
   }
 ]

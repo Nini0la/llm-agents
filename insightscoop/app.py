@@ -1,6 +1,7 @@
 import re
 import streamlit as st
-
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 def detect_input_type(text):
     if "youtube.com" in text or "youtu.be" in text:
@@ -35,19 +36,19 @@ if st.button("🧠 Scoop Insight & Plan") and input_text:
         input_type = detect_input_type(input_text)
 
         if input_type == "youtube":
-            from insightscoop.youtube import extract_insights_from_youtube
+            from youtube_parser import extract_insights_from_youtube
             result = extract_insights_from_youtube(input_text, profiler_prompt)
 
         elif input_type == "tweet":
-            from insightscoop.tweet import extract_insights_from_tweet
+            from tweet_parser import extract_insights_from_tweet
             result = extract_insights_from_tweet(input_text, profiler_prompt)
 
         elif input_type == "article":
-            from insightscoop.article import extract_insights_from_article
+            from article_parser import extract_insights_from_article
             result = extract_insights_from_article(input_text, profiler_prompt)
 
         elif input_type == "email":
-            from insightscoop.email import extract_insights_from_email
+            from email_parser import extract_insights_from_email
             result = extract_insights_from_email(input_text, profiler_prompt)
 
         else:
@@ -58,4 +59,3 @@ if st.button("🧠 Scoop Insight & Plan") and input_text:
 
     st.subheader("✅ Suggested Actions")
     st.markdown(result["actions"])
-

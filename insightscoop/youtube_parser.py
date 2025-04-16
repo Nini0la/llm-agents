@@ -108,6 +108,13 @@ def extract_insights_from_youtube(video_url, profiler_prompt=""):
     save_to_json(all_insights)
     print(f"Extracted and saved {len(all_insights)} insights.")
 
+    insight_text = "\n".join(["- " + i["insight"] for i in all_insights])
+
+    return {
+        "insights": insight_text,
+        "actions": "- Placeholder: Add LLM-generated action steps here"
+    }
+
 # === Usage Example ===
 #import pdb; pdb.set_trace()
 #extract_insights_from_youtube("https://www.youtube.com/watch?v=TiNedLS_txU")
